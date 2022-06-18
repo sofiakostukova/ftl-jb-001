@@ -1,4 +1,5 @@
 import animals.Cat;
+import animals.Dog;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,5 +17,17 @@ public class Main {
         Cat cat = new Cat("Barsik", 20);
         System.out.println(cat.jumpHeight());
 
+        Dog dog = new Dog();
+
+        dog.goToStick(14);
+        dog.whereTheDog();
+
+        dog.goToStick(20);
+        dog.whereTheDog();
+
+        dog.goToStick(5);
+        dog.whereTheDog();
+
+        Dog homlessDog = Dog.ofHomless(100);
     }
 }
