@@ -1,5 +1,6 @@
 import animals.Cat;
 import animals.Dog;
+import animals.Duck;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,6 +29,16 @@ public class Main {
         dog.goToStick(5);
         dog.whereTheDog();
 
+        dog.voice();
+
         Dog homlessDog = Dog.ofHomless(100);
+        homlessDog.voice();
+
+        Duck duck = new Duck();
+        duck.voice();
+        duck.takeOff();
+        duck.isTheBirdFlying();
+        duck.landing();
+        duck.isTheBirdFlying();
     }
 }
