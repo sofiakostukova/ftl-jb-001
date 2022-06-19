@@ -97,7 +97,7 @@ public class Main {
             System.out.println("Может ходить (can walk)");
         }
 
-        //StringExample.run();
+        StringExample.run();
 
         TypeConversion.run();
     }
