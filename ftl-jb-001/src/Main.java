@@ -1,6 +1,7 @@
 import L013.SwitchExample;
 
 import L019.StringExample;
+import L020.TypeConversion;
 import animals.Cat;
 import animals.Dog;
 import animals.Duck;
@@ -96,6 +97,8 @@ public class Main {
             System.out.println("Может ходить (can walk)");
         }
 
-        StringExample.run();
+        //StringExample.run();
+
+        TypeConversion.run();
     }
 }
