@@ -11,7 +11,8 @@ public class Dog extends Animal{
 
     public Dog()
     {
-        this.canFly = false;
+        super();
+
     }
 
     public  static  List<Dog> randomArray(){
