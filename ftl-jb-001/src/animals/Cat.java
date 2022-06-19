@@ -8,7 +8,7 @@ public class Cat extends Animal{
 
     public Cat()
     {
-
+        this.canFly = false;
     }
 
     private  Integer heightCoefficient(Integer weight){

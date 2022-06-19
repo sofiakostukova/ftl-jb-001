@@ -1,4 +1,5 @@
 import L013.SwitchExample;
+
 import animals.Cat;
 import animals.Dog;
 import animals.Duck;
@@ -82,5 +83,7 @@ public class Main {
         for(int i = 0; i < 100; i++){
             SwitchExample.run();
         }
+
+
     }
 }
