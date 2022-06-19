@@ -1,6 +1,7 @@
 import L013.SwitchExample;
 
 import L019.StringExample;
+import L020.TypeConversion;
 import animals.Cat;
 import animals.Dog;
 import animals.Duck;
@@ -97,5 +98,7 @@ public class Main {
         }
 
         StringExample.run();
+
+        TypeConversion.run();
     }
 }
