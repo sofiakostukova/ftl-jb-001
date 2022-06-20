@@ -2,15 +2,17 @@ import L013.SwitchExample;
 
 import L019.StringExample;
 import L020.TypeConversion;
+import L026.FileExample;
 import animals.*;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Random;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 //        HelloWorld.run();
 //        POJO.run();
 //
@@ -106,7 +108,7 @@ public class Main {
 
         }
 
-
+        FileExample.run();
 
     }
 }
