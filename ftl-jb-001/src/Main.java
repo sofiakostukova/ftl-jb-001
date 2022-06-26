@@ -2,6 +2,7 @@ import tasks.tasks004.UserAdd;
 import tasks.tasks001.Numbers;
 import tasks.tasks002.NumbersDesc;
 import tasks.tasks003.Multiplication;
+import tasks.tasks005.SevenMultiplication;
 
 
 public class Main {
@@ -11,6 +12,7 @@ public class Main {
         NumbersDesc.run();
         Multiplication.run();
         UserAdd.run();
+        SevenMultiplication.run();
 
     }
 }
