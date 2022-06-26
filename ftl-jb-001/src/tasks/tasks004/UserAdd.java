@@ -1,4 +1,4 @@
-package tasks;
+package tasks.tasks004;
 import java.util.Scanner;
 
 public class UserAdd {
