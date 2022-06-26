@@ -4,7 +4,7 @@ import tasks.tasks001.Numbers;
 import tasks.tasks002.NumbersDesc;
 import tasks.tasks003.Multiplication;
 import tasks.tasks005.SevenMultiplication;
-import tasks007.ManyLittleStars;
+import tasks.task007.ManyLittleStars;
 
 
 public class Main {
