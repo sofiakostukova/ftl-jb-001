@@ -1,4 +1,5 @@
 import tasks.task006.MultiplicationByTwo;
+import tasks.task008.FibonacciNumbers;
 import tasks.tasks004.UserAdd;
 import tasks.tasks001.Numbers;
 import tasks.tasks002.NumbersDesc;
@@ -17,5 +18,6 @@ public class Main {
         SevenMultiplication.run();
         MultiplicationByTwo.run();
         ManyLittleStars.run();
+        FibonacciNumbers.run();
     }
 }
