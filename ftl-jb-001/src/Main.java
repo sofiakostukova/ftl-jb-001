@@ -1,7 +1,9 @@
-import L001.HelloWorld;
+import tasks.tasks001.Numbers;
 
 public class Main {
     public static void main(String[] args) {
-        HelloWorld.run();
+
+        Numbers.run();
+
     }
 }
